@@ -1,0 +1,69 @@
+image: node:18
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: Remove Build Folder
+          script:
+            - ssh $USER@$SERVER "sudo rm -rf /var/www/html/Hoster-Frontend/dist"
+      - step:
+          name: Add Build Folder
+          script:
+            - ssh $USER@$SERVER "sudo mkdir /var/www/html/Hoster-Frontend/dist"
+      - step:
+          name: Add Folder Permission
+          script:
+            - ssh $USER@$SERVER "sudo chmod 777 /var/www/html/Hoster-Frontend/dist"
+      - step:
+          name: Deploy artifacts using SCP to PROD 
+          deployment: production
+          script:
+            - pipe: atlassian/rsync-deploy:0.3.2
+              variables:
+                USER: $USER
+                SERVER: $SERVER
+                REMOTE_PATH: '/var/www/html/Hoster-Frontend/dist'
+                LOCAL_PATH: 'dist/*'
+            
+    dev:
+      - step:
+          name: Build
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+          artifacts:
+            - dist/**
+            
+      - step:
+          name: Remove Build Folder
+          script:
+            - ssh $USERDEV@$SERVERDEV "sudo rm -rf /var/www/html/hoster-dev/hoster-frontend/dist"
+      - step:
+          name: Add Build Folder
+          script:
+            - ssh $USERDEV@$SERVERDEV "sudo mkdir /var/www/html/hoster-dev/hoster-frontend/dist"
+      - step:
+          name: Add Folder Permission
+          script:
+            - ssh $USERDEV@$SERVERDEV "sudo chmod 777 /var/www/html/hoster-dev/hoster-frontend/dist"            
+      - step:
+          name: Deploy artifacts using SCP to PROD
+          deployment: production
+          script:
+            - pipe: atlassian/rsync-deploy:0.3.2
+              variables:
+                USER: $USERDEV
+                SERVER: $SERVERDEV
+                REMOTE_PATH: '/var/www/html/hoster-dev/hoster-frontend/dist'
+                LOCAL_PATH: 'dist/*'
