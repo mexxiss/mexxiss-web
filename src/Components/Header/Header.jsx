@@ -37,7 +37,7 @@ const Header = () => {
               </div>
               <div className="flex items-center gap-1.5 md:gap-2.5">
                 <img src={helpIcon} alt="" className="w-4 sm:w-5" />
-                <span className="opacity-80">Helpp</span>
+                <span className="opacity-80">Help</span>
               </div>
             </div>
           </div>
