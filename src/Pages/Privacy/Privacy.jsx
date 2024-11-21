@@ -35,33 +35,40 @@ const Privacy = () => {
                 February 2024
               </h6>
               <p className="mt-4 opacity-80 leading-6">
-                compliance with EU General Data Protection Regulation (GDPR,
-                679/2016/UE) and Spanish Personal Data Protection and Digital
-                Rights Guarantees Act (LO 3/2018), we provide you with the
-                following information about the processing of your personal data
-                on our website(s). This privacy policy applies to the following
-                websites (including any subdomain or section) property and
-                responsibility of FREEPIK COMPANY, S.L.U. (hereinafter,
-                "Website" as corresponds):
+                At Mexxiss Technologies, we are strongly committed to protecting
+                your privacy and providing a safe & high-quality online
+                experience for all of our visitors. We understand that you care
+                about how the information you provide to us is used and shared.
+                We have developed a Privacy Policy to inform you of our policies
+                regarding the collection, use, and disclosure of information we
+                receive from users of our website. Mexxiss Technologies operates
+                the Website.
               </p>
               <p className="mt-4 opacity-80 leading-6">
-                In this legal document, the legally obligatory information on
-                the processing carried out on your personal data in the context
-                of our Website is provided.
+                Our Privacy Policy, along with our Terms & Conditions, governs
+                your use of this site. By using <Link to="/" className="underline">https://mexxiss.com</Link> and any of
+                our affiliated sites, or by accepting the Terms of Use (via
+                opt-in, checkbox, pop-up, or clicking an email link confirming
+                the same), you agree to be bound by our Terms & Conditions and
+                our Privacy Policy.
               </p>
               <p className="mt-4 opacity-80 leading-6">
-                The present Privacy Policy regulates the processing of your
-                personal data performed by Freepik Company, S.L.U. (hereinafter,
-                "Freepik Company"), collected through the use of the services
-                offered on the Website (hereinafter, "Services").
+                If you have provided personal, billing, or other voluntarily
+                provided information, you may access, review, and make changes
+                to it by emailing us at <span className="font-medium">support@mexxiss.com.</span> To manage your
+                receipt of marketing and non-transactional communications, you
+                may unsubscribe by clicking the "unsubscribe" link located at
+                the bottom of any marketing email. Emails related to the
+                purchase or delivery of orders are provided automatically –
+                customers are not able to opt out of transactional emails. We
+                will try to accommodate any requests related to the management
+                of personal information in a timely manner. However, it is not
+                always possible to completely remove or modify information in
+                our databases (for example, if we have a legal obligation to
+                keep it for certain timeframes, for example). If you have any
+                questions, simply reply to this email or visit our website to
+                view our official policies.
               </p>
-              <p className="mt-4 opacity-80 leading-6">
-                The latest update of this Privacy Policy is indicated at the top
-                of this text and it will become effective as of the date
-                indicated in each version. Freepik Company, thus, recommends
-                reviewing this Privacy Policy from time to time.
-              </p>
-              <p className="mt-4 opacity-80 leading-6"></p>
             </div>
           </div>
         </div>

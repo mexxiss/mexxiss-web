@@ -14,11 +14,17 @@ import OurWorks from "./Pages/OurWorks/OurWorks.jsx";
 import Products from "./Pages/Products/Products.jsx";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail.jsx";
 import ProductDetail2 from "./Pages/ProductDetail/ProductDetail2.jsx";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />, // Ensure Layout is used here, so it gets the Router context
+    element: (
+      <>
+        <ScrollToTop /> {/* Ensure ScrollToTop is included here */}
+        <Layout />
+      </>
+    ), // Ensure Layout is used here, so it gets the Router context
     children: [
       {
         path: "/",
