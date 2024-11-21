@@ -31,9 +31,6 @@ const Privacy = () => {
               </h4>
             </div>
             <div className="mt-10">
-              <h6 className="text-xl md:text-2xl font-semibold text-black-900 opacity-80">
-                February 2024
-              </h6>
               <p className="mt-4 opacity-80 leading-6">
                 At Mexxiss Technologies, we are strongly committed to protecting
                 your privacy and providing a safe & high-quality online
