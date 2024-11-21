@@ -15,6 +15,7 @@ import Products from "./Pages/Products/Products.jsx";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail.jsx";
 import ProductDetail2 from "./Pages/ProductDetail/ProductDetail2.jsx";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
+import ProductDetail3 from "./Pages/ProductDetail/ProductDetail3.jsx";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "/product/detail2",
         element: <ProductDetail2 />,
+      },
+      {
+        path: "/product/detail3",
+        element: <ProductDetail3 />,
       },
       {
         path: "*",

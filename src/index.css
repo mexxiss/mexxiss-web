@@ -47,12 +47,12 @@ input:focus {
   transition: opacity .3s linear;
 }
 
-.card .img_thumb span {
+.card .img_thumb img {
   filter: grayscale(100%);
   transition: all .3s ease-in-out;
 }
 
-.card:hover .img_thumb span {
+.card:hover .img_thumb img {
   filter: grayscale(0);
 }
 
@@ -62,7 +62,7 @@ input:focus {
 }
 
 .productDetail .slick-dots {
-  bottom: -75px;
+  bottom: -95px;
 }
 
 .productDetail .slick-dots li {

@@ -1,5 +1,12 @@
 import React from "react";
 import img1 from "../../assets/images/about.png";
+import Picture1 from "../../assets/images/Picture1.jpg";
+import Picture2 from "../../assets/images/Picture2.jpg";
+import Picture3 from "../../assets/images/Picture3.jpg";
+import Picture4 from "../../assets/images/Picture4.jpg";
+import Picture5 from "../../assets/images/Picture5.jpg";
+import Picture6 from "../../assets/images/Picture6.jpg";
+import Picture7 from "../../assets/images/Picture7.jpg";
 import { EmailOutlined, PhoneOutlined } from "@mui/icons-material";
 import locationBg from "../../assets/Images/locationBg.png";
 
@@ -133,7 +140,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture4}
+                      className="w-full h-full object-cover object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-gray-600 text-lg font-medium tracking-wider">
@@ -159,7 +169,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture7}
+                      className="w-full h-full object-cover object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-gray-600 text-lg font-medium tracking-wider">
@@ -182,7 +195,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture5}
+                      className="w-full h-full  object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-gray-600 text-lg font-medium tracking-wider">
@@ -229,7 +245,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture6}
+                      className="w-full h-full rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-sm text-primary tracking-wider">
@@ -250,7 +269,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture1}
+                      className="w-full h-full  object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-sm text-primary tracking-wider">
@@ -273,7 +295,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture2}
+                      className="w-full h-full  object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-sm text-primary tracking-wider">
@@ -294,7 +319,10 @@ const AboutUs = () => {
               <div className="">
                 <div className="card text-center">
                   <div className="w-36 h-36 mx-auto rounded-full p-3 img_thumb relative inline-block">
-                    <span className="w-full h-full rounded-full bg-red-500 inline-block"></span>
+                    <img
+                      src={Picture3}
+                      className="w-full h-full  object-top rounded-full bg-red-500 inline-block"
+                    />
                   </div>
                   <div className="text-center mt-4">
                     <p className="text-sm text-primary tracking-wider">

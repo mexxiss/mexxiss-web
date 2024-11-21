@@ -1,11 +1,11 @@
 import React from "react";
-import cate1 from "../../assets/images/cate1.png";
+import img18 from "../../assets/images/img18.png";
 import cate2 from "../../assets/images/cate2.png";
-import cate3 from "../../assets/images/cate3.png";
+import img10 from "../../assets/images/img10.png";
 import cate4 from "../../assets/images/cate4.png";
 import cate5 from "../../assets/images/cate5.png";
 import cate6 from "../../assets/images/cate6.png";
-import cate7 from "../../assets/images/cate7.png";
+import img23 from "../../assets/images/img23.png";
 import cate8 from "../../assets/images/cate8.png";
 import cate9 from "../../assets/images/cate9.png";
 import { EastOutlined } from "@mui/icons-material";
@@ -28,10 +28,10 @@ const OurCategories = () => {
           </div>
           <div className="card bg-[#52525280] relative overflow-hidden group">
             <div className="p-2">
-              <img src={cate1} className="h-[220px] w-full object-cover mx-auto opacity-90" />
+              <img src={img18} className="h-[220px] w-full object-cover mx-auto opacity-90" />
             </div>
             <div className="px-4 py-2 bg-[#212121] absolute bottom-0 translate-y-[calc(100%_-_50px)] w-full group duration-300 group-hover:translate-y-0">
-              <Link className="absolute w-full h-full left-0 top-0"></Link>
+              <Link to="/product/detail3" className="absolute w-full h-full left-0 top-0"></Link>
               <h6 className="text-sm text-heading font-medium">
                 Ecomelt® Brand Induction Melting & Heating Furnace Units From
                 5.0 Kg to 30,000 Kg Capacity.
@@ -49,7 +49,7 @@ const OurCategories = () => {
               <img src={cate2} className="h-[220px] w-full object-cover mx-auto opacity-90" />
             </div>
             <div className="px-4 py-2 bg-[#212121] absolute bottom-0 translate-y-[calc(100%_-_50px)] w-full group duration-300 group-hover:translate-y-0">
-              <Link className="absolute w-full h-full left-0 top-0"></Link>
+              <Link to="/product/detail3" className="absolute w-full h-full left-0 top-0"></Link>
               <h6 className="text-sm text-heading font-medium">
                 CentriCast® Brand CCM Billets Caster Lines for the Mild, SS and
                 Alloys Steels Square & Round Billets, AOD (Argon Oxygen
@@ -65,10 +65,10 @@ const OurCategories = () => {
           </div>
           <div className="card bg-[#52525280] relative overflow-hidden group">
             <div className="p-2">
-              <img src={cate3} className="h-[220px] w-full object-cover mx-auto opacity-90" />
+              <img src={img10} className="h-[220px] w-full object-cover mx-auto opacity-90" />
             </div>
             <div className="px-4 py-2 bg-[#212121] absolute bottom-0 translate-y-[calc(100%_-_50px)] w-full group duration-300 group-hover:translate-y-0">
-              <Link className="absolute w-full h-full left-0 top-0"></Link>
+              <Link to="/product/detail3" className="absolute w-full h-full left-0 top-0"></Link>
               <h6 className="text-sm text-heading font-medium">
                 IndoMartin® Brand Class IV & Class II Heavy Duty EOT Cranes &
                 Hoists, Trolley, Winches, Circular Scrap Lifting Magnet Units,
@@ -138,7 +138,7 @@ const OurCategories = () => {
           </div>
           <div className="card bg-[#52525280] relative overflow-hidden group">
             <div className="p-2">
-              <img src={cate7} className="h-[220px] w-full object-cover mx-auto opacity-90" />
+              <img src={img23} className="h-[220px] w-full object-cover mx-auto opacity-90" />
             </div>
             <div className="px-4 py-2 bg-[#212121] absolute bottom-0 translate-y-[calc(100%_-_50px)] w-full group duration-300 group-hover:translate-y-0">
               <Link className="absolute w-full h-full left-0 top-0"></Link>
